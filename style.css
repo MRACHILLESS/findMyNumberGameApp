@@ -1,0 +1,71 @@
+body{
+    background: #222222;
+}
+header{
+    height: 30vh
+}
+.container-fluid{
+    height: 100vh;
+}
+
+.btn-light{
+    height: 50px;
+    width: 100px;
+    font-size: 24px;
+}
+
+.border {
+    height: 8px;
+    background-color: white;
+    margin-top: 200px;
+}
+
+.number{
+    box-sizing: border-box;
+    background-color: white;
+    height: 160px;
+    width: 160px;
+    font-size: 5rem;
+    padding: 3rem 0rem;
+    transform: translate(-50%, 50%);
+    position: absolute;
+    left: 50%;
+    top: 23%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 20px;
+}
+
+.guess{
+    width: 200px;
+    height: 75px
+}
+.check{
+    width: 200px;
+}
+
+.right{
+    margin-top: 150px;
+}
+
+
+
+span img{
+    height: 30px;
+    width: 30px;
+    
+}
+span h4{
+    padding: 0 10px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="d-flex justify-content-between align-items-center p-3 text-white">
+                <button id="restart" class="btn btn-lg btn-light">again</button>
+                <h4 class="description">(between from 1 to 20)</h4>
+            </div>
+            <h1 class="title text-center text-white">Find the Number I Invented</h1>
+            <div class="border text-white"></div>
+            <div class="number text-center d-flex align-items-center justify-content-center">?</div>
+        </header>
+        <main>
+            <section class="left">
+                <input 
+                class="guess"
+                id="guess"
+                placeholder="enter the number"
+                type="number">
+                <button id="check" class="btn btn-light btn-lg check">check</button>
+            </section>
+            <section class="right">
+                <div class="d-flex text-white mb-5" >
+                    <h3 id="correctNumber">guess...</h3>
+                </div>
+                <span class="d-flex text-white">
+                    <img src="img/100.jpg" alt="">
+                    <h4 id="score">Score: 20</h4>
+                </span>
+                <span class="d-flex text-white">
+                    <img src="img/medal.jpg" alt="">
+                    <h4 id="highestScore">Score: 0</h4>
+                </span>
+
+            </section>
+        </main>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
